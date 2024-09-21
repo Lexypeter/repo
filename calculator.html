@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <script src = "calc.js"></script>
+<head><style>
+
+  #input1{
+    margin-left: 70px;
+  }
+  #input2{
+    margin-left: 5px;
+  }
+  #input3{
+    margin-left: 55px;
+  }
+  #calculate{
+    margin-top: 20px;
+    margin-left: 100px;
+    background-color: green;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 50px;
+  }
+</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Simple calculator</h1>
+  <label for="input1">Enter first number:</label>
+  <input type="text" id="input1"><br>
+  <label for="input 2">Enter mathematical operation</label>
+  <input type="text" id="input2"><br>
+  <label for="input3">Enter second number:</label>
+  <input type="text" id = "input3"><br>
+  <p>note:</p>
+  <p>division sign is (/)</p>
+  <p>multiplication sign is (*)</p>
+  <button onclick="calculate()" id = "calculate">calculate</button>
+  <p>output:</p>
+  <p id="output">0</p>
+
+</body>
+</html>
